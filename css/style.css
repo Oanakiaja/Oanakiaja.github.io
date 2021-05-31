@@ -1866,7 +1866,7 @@ pre .javascript .function {
   font-size: 2rem;
   line-height: 1.8;
   text-align: center;
-  color: var(--default-text-color);
+  color: var(--second-background-color);
 }
 @media (max-width: 780px) {
   .first-screen-container .content .description {
@@ -1891,6 +1891,9 @@ pre .javascript .function {
 }
 .first-screen-container .content .s-icon-list .s-icon-item:last-child {
   margin-right: 0;
+}
+.first-screen-container .content .s-icon-list .s-icon-item i {
+  color: var(--second-background-color);
 }
 .image-viewer-container {
   position: fixed;
